@@ -10,6 +10,6 @@ Code to run numbers factorial, without recursion.
 
 ```rspec``` 
 
-### To validate a CPF format, run:
+### To calculate a number Factorial, run:
 
 ```ruby main.rb```
