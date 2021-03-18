@@ -10,27 +10,27 @@ describe 'Factorial' do
             expect(factorial(-1)).to eq(nil)
         end
 
-        it "when given 2" do
+        it "when given 2, returns 2" do
             expect(factorial(2)).to eq(2)
         end
 
-        it "when given 5" do
+        it "when given 5, returns 120" do
             expect(factorial(5)).to eq(120)
         end
 
-        it "when given 10" do
+        it "when given 10, returns 3628800" do
             expect(factorial(10)).to eq(3628800)
         end
 
-        it "when given 15" do
+        it "when given 15 returns 1307674368000" do
             expect(factorial(15)).to eq(1307674368000)
         end
 
-        it "when given 1000" do
+        it "when given 1000 be truthy" do
             expect(factorial(1000)).to be_truthy
         end
 
-        it "when given 10000" do
+        it "when given 10000 be truthy" do
             expect(factorial(10000)).to be_truthy
         end
     end
